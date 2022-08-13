@@ -1,0 +1,342 @@
+/* POPPINS FONT FAMILY */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800;900&family=Righteous&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin:0px;
+  padding: 0px;
+  /* border: 0.1px solid red; */
+}
+
+a { color: inherit; 
+  text-decoration: none;}
+  
+body{
+  background-color: #f5f5f5;
+}
+header{
+  height: 500px;
+  background-color: #4717FE;
+}
+nav{
+
+  float: right;
+  margin-top: 50px;
+  margin-right: 30px;
+}
+.nav-item{
+  margin-right: 20px;
+  color: white;
+}
+.nav-item:hover{
+  cursor: pointer;
+  font-weight: 600;
+}
+.nav-item-active{
+  margin-right: 20px;
+  padding: 5px 15px ;
+  font-weight: 500;
+  border: 1px solid white;
+  background-color: #fff;
+  border-radius: 5px;
+  color: blue;
+  font-weight: 400px;
+}
+.nav-item-active:hover{
+  background-color: #4717FE;
+
+  color: white;
+  transition: 250ms;
+  cursor: pointer;
+}
+
+.logo{
+  margin:50px 20px 20px 80px;
+}
+
+.header-text{
+  margin-left: 60px;
+  margin-top: 50px;
+  color: white;
+  float: left;
+  /* padding-top: 20px; */
+}
+.header-text>h2{
+  font-weight: 500;
+  font-size: 40px;
+}
+.header-text>p{
+  font-size: 15px;
+}
+.header-image{
+  float: right;
+}
+.companies{
+  margin: 30px;
+}
+
+.company-items{
+  font-family: 'Righteous', cursive;
+  margin:30px;
+  color: black;
+  text-decoration: none;  
+}
+.api > h1{
+  margin:40px;
+  margin-left: 60px;
+}
+.cards{
+  margin-left: 60px;
+  /* margin:60px; */
+  display: flex;
+}
+
+.card-active , .card{
+  background-color: transparent;
+  margin-right:20px;
+  border-radius: 10px;
+}
+.card-active:hover{
+  color: #4717FE;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.325);
+
+}
+.card:hover{
+  color: #4717FE;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.325);
+
+}
+
+.card-logo{
+  margin:20px
+}
+.card-head-active{
+  /* color: black; */
+  margin-left: 20px;
+}
+.card-head-active:hover{
+  color:#4717FE;
+}
+.card-body{
+  padding: 20px;
+  font-size: 11px;
+}
+.card-head{
+  margin-left: 20px;
+
+}
+.blog-heading{
+  margin:60px 0px 40px 60px;
+}
+.blog-cards{
+  display: flex;
+}
+
+.blog-cards> .blog-card:nth-child(1){
+margin-left: 60px;
+}
+.blog-cards> .blog-card:nth-child(2){
+  margin-left: 40px;
+}
+
+.blog-image{
+  float: left;
+}
+.blog-content{
+  display: block;
+  float: right;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.325);
+  padding-bottom: 58px;
+  padding-right: 30px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.blog-content>h6{
+  color: #4717FE;
+  margin:25px 20px 10px 40px;
+  
+}
+.blog-content>h3{
+  margin:0px 20px 20px 40px;
+}
+.blog-content>small{
+  margin:15px 0px 20px 40px;
+  display: block;
+
+}
+.blog-content>.brsmall{
+  margin:20px;
+}
+
+.blog-card-bottom-image{
+  position: relative;
+  left: 50px;
+  bottom:35px;
+  border-radius: 100px;
+  border:2px solid #fff
+}
+
+.blog-author{
+  position: relative;
+  left:185px;
+  bottom:45px;
+  font-weight: 500;
+}
+.faq-section{
+  padding:0px 0px 325px 60px;
+  display: block;
+  background-color: #E9EDFF;
+}
+.faq-content{
+  float: left;
+  margin-top:40px
+}
+.faq-content>h2{
+  display: block;
+  /* margin-bottom: 20px; */
+  margin-top:10px;
+  font-size:40px;
+}
+
+.faq-content>h4:nth-child(2){
+  display: block;
+  /* margin-bottom: 20px; */
+  /* margin-top:10px; */
+  font-size:12px;
+  font-weight: 300;
+}
+.faq-content>h4:nth-child(3){
+  display: block;
+  /* margin-bottom: 20px; */
+  /* margin-top:10px; */
+  font-size:12px;
+  font-weight: 500;
+}
+.faq-content > button{
+  margin-top:30px;
+  font-weight: 500;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #4717FE;
+  
+  /* margin-top:40px; */
+  background-color: #4717FE;
+}
+
+button:hover{
+  color:#4717FE;
+  background-color: #fff;
+  border: 1px solid #4717FE;
+transition: 250ms;
+}
+.faq-image{
+  float: right;
+  height:320px;
+  /* width: 600px; */
+}
+.download-section{
+  display: flex;
+  background-color: #fff;
+}
+.download-content{
+  margin:100px 0px 100px 60px;
+}
+body > div.download-section > div.download-content > h1 > span{
+  font-weight: 400;
+}
+.download-email{
+  padding:0px 0px 0px 200px;
+  margin:80px 20px 100px 250px
+}
+.download-email > form > button{
+  position: relative;
+  left:45px;
+  background-color: #4717FE;
+  border-radius: 20px;
+  border:1px solid #4717FE;
+  padding:10px 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.download-email > form > button:hover{
+  cursor: pointer;
+  background-color: white;
+  border:1px solid #4717FE;
+  color: #4717FE;
+}
+.download-email>form{
+  background-color:#E9EDFF;
+  border-radius: 30px;
+  color: black;
+  /* margin:10px; */
+  padding:5px 50px 5px 30px
+}
+.download-section > div.download-email > form > input{
+  background-color:#E9EDFF;
+  /* margin: 10px; */
+  border-style: none;
+
+}
+
+.download-section > div.download-email > form > input::placeholder{
+  /* opacity: 1; */
+  color: black;
+}
+
+.footer-section{
+  display: flex;
+  background-color: blue;
+  justify-content: space-between;
+}
+.footer-left{
+  margin:60px
+  /* float: left; */
+}
+.footer-left>img{
+  height: 60px;
+}
+.footer-left > ul{
+  display: flex;
+  color: white;
+/* background-color: #fff; */
+}
+
+.footer-left > ul >li{
+  list-style: none;
+  cursor: pointer;
+  margin:20px 20px 20px 0px;
+  /* background-color: black; */
+}
+.footer-left > ul >li:hover{
+  font-weight: 600;
+  /* background-color: black; */
+}
+
+.footer-right > .footer-right{
+  margin:60px 60px 20px 60px;
+}
+.footer-right > .footer-right> .footer-logos{
+/* background-color: black; */
+height: 50px;
+}
+.footer-right>ul{
+  list-style: none;
+  display: flex;
+  /* background-color: #fff; */
+}
+.footer-right>ul>li{
+  color: white;
+  margin:0px 20px 0px 10px ;
+}
+.footer-right>ul>li:hover{
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+/* time=2.5hr */
