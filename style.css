@@ -374,6 +374,7 @@ height: 50px;
   .blog-cards{
     display: flex;
     flex-wrap: wrap;
+    gap:20px;
   }
   body > div.blog-cards > div:nth-child(2) > div.blog-image {
     margin-left:25px ;
@@ -423,6 +424,10 @@ height: 50px;
     display: flex;
     flex-wrap: wrap;
   }
+  .download-content{
+    display: block;
+    white-space: nowrap;
+  }
   .download-email{
       padding: 5px;
       margin:0px 0px 10px 0px
@@ -459,3 +464,9 @@ display: block
   body > header > div.header-text{
     margin:50px 0px 10px 30px
   }
+  
+  body > div.footer-section > div.footer-right{
+    padding-bottom: 20px;
+   
+  }
+}
