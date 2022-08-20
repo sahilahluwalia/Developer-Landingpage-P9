@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
   margin:0px;
   padding: 0px;
-  /* border: 0.1px solid red; */
+  border: 0.1px solid red;
 }
 
 a { color: inherit; 
@@ -19,7 +19,7 @@ header{
   background-color: #4717FE;
 }
 nav{
-
+display: flex;
   float: right;
   margin-top: 50px;
   margin-right: 30px;
@@ -180,6 +180,7 @@ margin-left: 60px;
 }
 
 .blog-author{
+  /* max-width: 2px; */
   position: relative;
   left:185px;
   bottom:45px;
@@ -340,3 +341,135 @@ height: 50px;
 
 
 /* time=2.5hr */
+
+
+
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+  nav>.nav-item{
+    display: none;
+  }
+}
+
+
+
+
+
+
+@media screen and  (max-width:480px)  {
+  nav>.nav-item{
+    display: none;
+  }
+  nav>.logo{
+    display: flex;
+  }
+  .api>.cards{
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card ,.card-active{
+    margin-bottom: 20px;
+  }
+  .blog-cards{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body > div.blog-cards > div:nth-child(2) > div.blog-image {
+    margin-left:25px ;
+  }
+  .blog-author{
+    width: 2px;
+    position: relative;
+    left:15px;
+    bottom:20px;
+    font-weight: 500;
+    
+  }
+  body > div.faq-section{
+    padding:0px 20px 0px 30px
+  }
+  /* contact us button  */
+  body > div.faq-section > div.faq-content > button{
+    margin:20px 0px 20px 100px;
+  }
+ 
+  .download-section{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .download-email{
+      padding-left: 20px;
+      margin:0px 0px 20px 0px
+  
+
+  }
+  .footer-section{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-left>.list{
+display: block
+  }
+  .footer-right{
+    margin:auto;
+  }
+  .companies{
+    display: flex;
+    
+    flex-wrap: wrap;
+  }
+  nav {
+    /* display: flex; */
+    /* height: 25vh; */
+  }
+
+  /* logo  */
+  body > header > div:nth-child(2) > img{
+    margin:50px 30px 0px 0px
+  }
+  /* header text  */
+  body > header > div.header-text{
+    margin:50px 0px 10px 30px
+  }
+  nav .nav-items{
+    display: block;
+    margin-left:130px;
+    position: relative;
+    bottom:20px;
+    
+  }
+  nav img:nth-child(1) {
+    position: relative;
+    left:70px;  
+    margin-top:20px
+  }
+  nav>button{
+      margin-left:120px;
+      position: relative;
+    bottom:70px;
+  }
+  .intro-section{
+    flex-wrap: wrap;
+  }
+  .left-section{
+    margin-left: 25px;
+    
+  }
+  .left-section>h1{
+      font-size: 50px;
+  }
+  .left-section>button{
+      margin-left: 50px;
+  }
+  body > div.main-div > div > div.imgs-div > img.backcover{
+      bottom:300px;
+      left:12px;
+      position: relative;
+  }
+  body > div.main-div > div > div.imgs-div > img.vector-dot{
+      bottom:20px;
+      position: relative;
+  }
+  
+}
