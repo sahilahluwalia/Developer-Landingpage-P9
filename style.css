@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
   margin:0px;
   padding: 0px;
-  /* border: 0.1px solid red; */
+  border: 0.1px solid red;
 }
 
 a { color: inherit; 
@@ -378,13 +378,38 @@ height: 50px;
   body > div.blog-cards > div:nth-child(2) > div.blog-image {
     margin-left:25px ;
   }
+  .blog-content{
+    position: relative;
+    right:70px;
+    margin-top:50px;
+  }
+  .blog-bottom{
+    position: relative;
+    right: 300px;
+    top:285px
+  }
+  /* author 1  */
   .blog-author{
     width: 2px;
+  }
+  body > div.blog-cards > div:nth-child(1) > div.blog-author > b{
+    position: absolute;
+    left:-130px;
+    /* width: 2px; */
+    top:275px
+  }
+  /* author 2  */
+  body > div.blog-cards > div:nth-child(2) > div.blog-author > b{
+    position: absolute;
+    left:-100px;
+    /* width: 2px; */
+
+    top:275px
+  }
+  
+  body > div.blog-cards > div:nth-child(1) > div.blog-bottom > img{
     position: relative;
-    left:15px;
-    bottom:20px;
-    font-weight: 500;
-    
+    right:500px
   }
   body > div.faq-section{
     padding:0px 20px 0px 30px
@@ -399,8 +424,8 @@ height: 50px;
     flex-wrap: wrap;
   }
   .download-email{
-      padding-left: 20px;
-      margin:0px 0px 20px 0px
+      padding: 5px;
+      margin:0px 0px 10px 0px
   
 
   }
@@ -415,9 +440,11 @@ display: block
     margin:auto;
   }
   .companies{
-    display: flex;
-    
+    /* display: flex; */
+    display:  flex;
     flex-wrap: wrap;
+    
+    /* flex-wrap: wrap; */
   }
   nav {
     /* display: flex; */
@@ -426,50 +453,9 @@ display: block
 
   /* logo  */
   body > header > div:nth-child(2) > img{
-    margin:50px 30px 0px 0px
+    margin:50px 30px 3px 30px
   }
   /* header text  */
   body > header > div.header-text{
     margin:50px 0px 10px 30px
   }
-  nav .nav-items{
-    display: block;
-    margin-left:130px;
-    position: relative;
-    bottom:20px;
-    
-  }
-  nav img:nth-child(1) {
-    position: relative;
-    left:70px;  
-    margin-top:20px
-  }
-  nav>button{
-      margin-left:120px;
-      position: relative;
-    bottom:70px;
-  }
-  .intro-section{
-    flex-wrap: wrap;
-  }
-  .left-section{
-    margin-left: 25px;
-    
-  }
-  .left-section>h1{
-      font-size: 50px;
-  }
-  .left-section>button{
-      margin-left: 50px;
-  }
-  body > div.main-div > div > div.imgs-div > img.backcover{
-      bottom:300px;
-      left:12px;
-      position: relative;
-  }
-  body > div.main-div > div > div.imgs-div > img.vector-dot{
-      bottom:20px;
-      position: relative;
-  }
-  
-}
